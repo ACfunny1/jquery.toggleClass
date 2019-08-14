@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        @font-face {
+  font-family: 'iconfont';  /* project id 1335497 */
+  src: url('https://at.alicdn.com/t/font_1335497_uxp74pitboa.eot');
+  src: url('https://at.alicdn.com/t/font_1335497_uxp74pitboa.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1335497_uxp74pitboa.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1335497_uxp74pitboa.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1335497_uxp74pitboa.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1335497_uxp74pitboa.svg#iconfont') format('svg');
+}
+
+    .iconfont {
+        font-family: 'iconfont'
+    }
+
+    .box {
+        font-size: 100px;
+    }
+
+    .qiehuan {
+        display: none;
+    }
+
+    .pos {
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        display: block;
+    }
+
+    </style>
+
+    
+
+</head>
+<body>
+    <div class="box">
+        <div class="iconfont pos">&#xe63b;</div>
+        <div class="iconfont qiehuan">&#xe633;</div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+
+
+    <script type="text/javascript">
+        $('.box').click(function(){
+            $('.iconfont').toggleClass('qiehuan').toggleClass('pos')
+        })
+    </script>
+</body>
+</html>
